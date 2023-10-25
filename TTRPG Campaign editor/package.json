@@ -1,0 +1,14 @@
+{
+  "name": "all-ttrpg-campaign-editor",
+  "version": "0.0.0",
+  "description": "All TTRPG Campaign editor",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}

@@ -1,0 +1,44 @@
+﻿body
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+
+main {
+    padding: 1rem;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 4fr;
+    grid-gap: 0px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    background-size: contain; /* Added to scale background images */
+    background-position: center center;
+    height :10vh;
+    width :10vh;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(10, 1fr);
+    }
+}

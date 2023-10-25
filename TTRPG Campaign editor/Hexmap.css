@@ -1,0 +1,65 @@
+﻿body {
+    .canvas
+
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.hexagon {
+    width: 100px;
+    height: 115.5px;
+    background-color: #ccc;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.editor {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.categories {
+    margin-top: 20px;
+}
+
+    .categories h3 {
+        margin-top: 0;
+    }
+
+    .categories p {
+        margin-bottom: 10px;
+    }
+}
